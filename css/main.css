@@ -18,6 +18,11 @@
   background: #f8f8f8;
 }
 
+.navbar{
+  background: transparent;
+  /*border-bottom: 1px solid white;*/
+}
+
 footer {
   min-height: 50px;
   background: black;
