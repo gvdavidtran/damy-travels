@@ -1,0 +1,86 @@
+.jumbotron {
+  background: 
+    linear-gradient(
+      rgba(0, 0, 0, 0.3), 
+      rgba(0, 0, 0, 0.3)
+    ),
+    url('https://www.dropbox.com/s/kzjejordbnv2p6z/IMG_3431.JPG?raw=1')
+    no-repeat center center;
+  background-size: cover;
+  color: white;
+  height: 100vh;
+  margin-bottom: 0;
+  display: flex;
+  align-items: center;
+}
+
+#follow-us {
+  background: #f8f8f8;
+}
+
+footer {
+  min-height: 50px;
+  background: black;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  color: white;
+}
+
+section {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.travel {
+  height: 75vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+#japan {
+  width: 100%;
+  background-image: 
+  linear-gradient(
+      rgba(0, 0, 0, 0.3), 
+      rgba(0, 0, 0, 0.3)
+    ),
+    url('https://www.intrepidtravel.com/adventures/wp-content/uploads/2017/03/rsz_japan-miyajima-floating-gate-torii-flood-e1490023918763-1170x658.jpg');
+  background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+#taiwan {
+  width: 100%;
+  background-image: 
+    linear-gradient(
+      rgba(0, 0, 0, 0.3), 
+      rgba(0, 0, 0, 0.3)
+    ),url('https://hiplip.files.wordpress.com/2012/06/poland3.jpg');
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+#newsletter {
+  background: #91a05c;
+}
+
+#adventuretitle {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+#square {
+  padding: 0
+}
+
+.centered{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
