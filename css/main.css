@@ -93,6 +93,9 @@ section {
 	background-position: center center;
 	background-size: cover;
 	background-attachment: fixed;
+  @media (max-width: @iphone-screen) {
+        background-attachment: scroll;
+  }
 }
 
 #taiwan {
@@ -106,6 +109,9 @@ section {
 	background-position: center center;
 	background-size: cover;
 	background-attachment: fixed;
+  @media (max-width: @iphone-screen) {
+        background-attachment: scroll;
+    }
 }
 
 #newsletter {
