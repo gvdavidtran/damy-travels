@@ -92,9 +92,9 @@ section {
   background-repeat: no-repeat;
 	background-position: center center;
 	background-size: cover;
-	background-attachment: fixed;
-  @media (max-width: @iphone-screen) {
-        background-attachment: scroll;
+	background-attachment: scroll;
+  @media (min-width: 992px) {
+    background-attachment: fixed;
   }
 }
 
@@ -108,10 +108,10 @@ section {
 	background-repeat: no-repeat;
 	background-position: center center;
 	background-size: cover;
-	background-attachment: fixed;
-  @media (max-width: @iphone-screen) {
-        background-attachment: scroll;
-    }
+	background-attachment: scroll;
+  @media (min-width: 992px) {
+    background-attachment: fixed;
+  }
 }
 
 #newsletter {
