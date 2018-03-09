@@ -121,4 +121,10 @@ section {
 .fab:hover {
   color: white; }
 
+.form-inline .form-control, form.halves button {
+  width: 100%; }
+  @media (min-width: 768px) {
+    .form-inline .form-control, form.halves button {
+      width: 46%; } }
+
 /*# sourceMappingURL=main.css.map */
