@@ -5,7 +5,7 @@ body {
   color: #666;
 }
 
-h2, h3 {
+h1, h2, h3 {
   font-family: Oswald;
   color: #333;
 }
@@ -33,6 +33,10 @@ h2 {
   margin-bottom: 0;
   display: flex;
   align-items: center;
+}
+
+.jumbotron h1 {
+  color: white;
 }
 
 #follow-us {
@@ -79,6 +83,12 @@ section {
   align-items: center;
   justify-content: center;
   color: white;
+}
+
+.travel h1 {
+  color: white;
+  letter-spacing: 10px;
+  font-weight: 400;
 }
 
 #japan {
