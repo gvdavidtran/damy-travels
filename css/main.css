@@ -1,3 +1,24 @@
+body {
+  font-family: "Open Sans";
+  font-size: 16px;
+  font-weight: 400;
+  color: #666;
+}
+
+h2, h3 {
+  font-family: Oswald;
+  color: #333;
+}
+
+h2 {
+  font-size: 32px;
+}
+
+.uppercase {
+  text-transform: uppercase;
+  font-weight: 400;
+}
+
 .jumbotron {
   background: 
     linear-gradient(
@@ -21,6 +42,22 @@
 .navbar{
   background: transparent;
   /*border-bottom: 1px solid white;*/
+}
+
+.navbar-brand {
+  padding-left: 10px;
+  font-family: Oswald;
+  font-weight: 300;
+  letter-spacing: 3px;
+
+}
+
+.navbar-nav {
+  font-family: Raleway;
+  font-weight: 300;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
 }
 
 footer {
@@ -88,4 +125,8 @@ section {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.no-padding {
+  padding: 0;
 }
